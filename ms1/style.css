@@ -102,3 +102,24 @@ body{
     background: #00aced;
 }
 
+/*For detail1*/
+
+.upTown h1{
+    font-family: 'Comfortaa', cursive;
+    font-size: 80px;
+    color:red;
+}
+
+.upTown .description{
+    font-family: 'Cousine', monospace;
+    width: 80%;
+    margin-bottom: 50px;
+}
+
+.pages{
+    width: 70%;
+    height: 60vh;
+    margin-left: 15%;
+    margin-bottom: 50px;
+    border:black solid 3px;
+}
