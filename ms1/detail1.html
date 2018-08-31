@@ -9,22 +9,101 @@
 </head>
 <body>
 <div class="upTown">
-    <h1>Project 1</h1>
+    <h1>5 in 5</h1>
     <h3 style="float: right;position:absolute;top: 0; right: 0;">Home</h3>
     <h3>Boyan Chen</h3>
     <h3>Harpreet Sareen</h3>
     <h3>08/29/18</h3>
     <p class="description">
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        For the next five days, create one project per day. Each project must be conceptualized, produced and documented in a single day. This is the only rule of the project, and IT SHOULD NOT BE BENT OR BROKEN!
     </p>
 </div>
+<div class="row">
+    <div class="days default" id="day1" onclick="changeDays(this.id)">
+        <h3>Day #1</h3>
+    </div>
+    <div class="days" id="day2" onclick="changeDays(this.id)">
+        <h3>Day #2</h3>
+    </div>
+    <div class="days" id="day3" onclick="changeDays(this.id)">
+        <h3>Day #3</h3>
+    </div>
+    <div class="days" id="day4" onclick="changeDays(this.id)">
+        <h3>Day #4</h3>
+    </div>
+    <div class="days" id="day5" onclick="changeDays(this.id)">
+        <h3>Day #5</h3>
+    </div>
+</div>
 <div class="downTown">
-    <div class="pages"></div>
-    <div class="pages"></div>
-    <div class="pages"></div>
-    <div class="pages"></div>
+    <div class = "dayContainer" id="day1Container">
+        <h1>Mr Bookmark</h1>
+        <p>Mr Bookmark is a popup bookmarks. I'm personally interested in the origami. Especially the type of origami which is able
+        to pop up by folding. We can see it variously used in some creative graphic design books.</p>
+        <div class="precedents">
+            <img src="https://media.giphy.com/media/2A1hOQAHMBi7SpjpPB/giphy.gif">
+            <img src="https://media.giphy.com/media/1n9vEiBzgR4Xs2b5nQ/giphy.gif" style="margin-left: 40px">
+        </div>
+        <br>
+        <h2>Conceptualization</h2>
+        <p>Instead of just make this interesting origami exist in the certain graphic design books. I came up with an idea
+        to make it as a bookmarks. So that every times we fold the books we are going to read can have this kind of paper based
+        sculpture pop up on the book!</p>
+        <br>
+        <h2>Development</h2>
+        <h3>a. Prototypes</h3>
+        <p>At first I decide the direction of folding bookmarks. Since it is too abstract to think about the perspective. I start to make some prototypes to help myself. Then I realized that I want to make the figure face directly to the users. So the book
+        mark need to be fold start from the side of the book</p>
+        <div class="precedents">
+            <img src="img/prototype1.JPG">
+            <img src="img/prototype2.JPG" style="margin-left:40px;">
+            <img src="img/origami.JPG" style="margin-left:40px;">
+        </div>
+        <br>
+
+        <h3>b. Sketch</h3>
+            <p>
+                After Trying some origami figure, I tend to give the idea of making origami as a figure. Because origami itself is thick. If you fold it equally. It will
+                get twice thicker. It is really inconvenient to fold for the users. So I start to try draw a figure by hand on a paper and cut it as a plat figure. I want
+                the figure looks funny but not disturb users. Because every time they see it is the time they want to clam down and read book. So I just draw a very simple
+                figure with just line and circle. And I call it Mr Bookmark.
+            </p>
+        <div class="precedents">
+            <img src="img/sketch.JPG">
+        </div>
+
+        <h2>Final</h2>
+        <p>
+            So the final output is like this. I also fold a handle at the edges of the bookmarks so that the users can open the book with the book mark easier.
+        </p>
+        <div class="precedents">
+            <img src="img/mr_bookmark.JPG">
+            <img src="img/handle.JPG" style="margin-left: 40px">
+        </div>
+    </div>
+    <div class = "dayContainer off" id="day2Container">
+        <h1>In Progress</h1>
+    </div>
+    <div class = "dayContainer off" id="day3Container">
+        <h1>TBD</h1>
+    </div>
+    <div class = "dayContainer off" id="day4Container">
+        <h1>TBD</h1>
+    </div>
+    <div class = "dayContainer off" id="day5Container">
+        <h1>TBD</h1>
+    </div>
+
+    <!--<div class="pages"></div>-->
+    <!--<div class="pages"></div>-->
+    <!--<div class="pages"></div>-->
+    <!--<div class="pages"></div>-->
 
 </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.6/p5.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.6/addons/p5.dom.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.6/addons/p5.sound.js"></script>
+<script src="sketch.js"></script>
 <script src="js.js"></script>
 </body>
 </html>

@@ -102,6 +102,18 @@ body{
     background: #00aced;
 }
 
+#showCase1{
+    text-align: center;
+    line-height: 600px;
+}
+
+#showCase1 img{
+    width: 95%;
+    height: auto;
+    margin-top: 1.5%;
+    vertical-align: center;
+}
+
 /*For detail1*/
 
 .upTown h1{
@@ -112,6 +124,7 @@ body{
 
 .upTown .description{
     font-family: 'Cousine', monospace;
+    font-size: 18px;
     width: 80%;
     margin-bottom: 50px;
 }
@@ -122,4 +135,90 @@ body{
     margin-left: 15%;
     margin-bottom: 50px;
     border:black solid 3px;
+}
+
+
+
+.dayContainer{
+    width: 70%;
+    height: 100vh;
+    margin-left: 15%;
+    margin-bottom: 50px;
+}
+
+.precedents{
+    text-align: center;
+}
+
+.precedents img{
+    height: auto;
+    width: 30%;
+}
+
+.dayContainer h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.dayContainer p{
+    font-family: 'Cousine', monospace;
+    font-size: 18px;
+}
+
+#sketchRight{
+    display: inline-block;
+    width: 70%;
+    height: 300px;
+    float: left;
+    margin-left: 40px;
+}
+
+#sketchRight p{
+    float: right;
+}
+
+
+#sketchLeft{
+    float: left;
+    border:solid black 3px;
+    width: 20%;
+    height: 300px;
+    margin: 0;
+}
+
+#sketchLeft img{
+    width: 100%;
+    height: auto;
+}
+
+.row{
+    width: 100%;
+    text-align: center;
+    height: 80px;
+    /*border: solid black 3px;*/
+    line-height: 80px;
+}
+
+.days{
+    display: inline-block;
+    width: 12%;
+    height: 100%;
+    /*border: solid black 3px;*/
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.days:hover{
+    color:red;
+    text-decoration-line: underline;
+    text-decoration-line: -moz-anchor-decoration;
+}
+
+.off{
+    display: none;
+}
+
+.default{
+    color: red;
+    text-decoration-line: underline;
 }
