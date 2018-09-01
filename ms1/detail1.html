@@ -82,7 +82,70 @@
         </div>
     </div>
     <div class = "dayContainer off" id="day2Container">
-        <h1>In Progress</h1>
+        <h1>Neon</h1>
+        <p>
+            This is a project combine with Arduino. I'm a begxiner of Arduino. I want to utilize the knowledge I've learned
+            so far to create controllable neon light on the breadboard.
+        </p>
+        <br>
+        <h2>Conceptualization</h2>
+        <p>
+            I just learned about control a single unit of LED on the circuit. I can also control the LED's light pattern by code
+            in Arduino IDE. NEON can be considered as a scheme of LED. And light in a certain programmable pattern. So maybe I can
+            add more LED on the breadboard to make them as a scheme of LED. Then look for some way to control them the light patter
+            of the scheme.
+        </p>
+        <div class="precedents">
+            <img src="img/day2p.gif">
+        </div>
+        <br>
+        <h2>Development</h2>
+        <h3>a. Scheme of led</h3>
+        <p>At first, I try to connect three LED with just on pin port. When can get the circuit connect, I just found that didn't
+        work. It seems like the power is not be able to afford three LED at the same time. Then I confirm this assumation by connect
+        just two LED together</p>
+        <div class="precedents">
+            <img src="img/dp1.JPG">
+            <img src="img/dp2.JPG" style="margin-left:40px;">
+        </div>
+        <p>Then I decide to connect the LED directly with different pin. That means I need to enable more pin as output in the code and
+        have more resistors with the LED. Then It work!</p>
+        <div class="precedents">
+            <img src="img/dp3.JPG">
+            <img src="img/pd4.JPG" style="margin-left:40px;">
+        </div>
+        <br>
+
+        <h3>b. Circuit for switches</h3>
+        <p>
+            I want to have switch to turn on and turn off the scheme of light. Then I need to have an additional pin to receive the sign of
+            switch, so that I can change the state of light scheme accordingly. I decide to us pull down switch to achieve this function.
+            I add a additional helper circuit for the switch.
+        </p>
+        <div class="precedents">
+            <img src="img/switch.JPG">
+        </div>
+        <br>
+        <h3>c. Code</h3>
+        <p>
+            To Control the pattern of LED's light. I wrote a method to give the power from the pin at different time. I use a counter to count
+            the pin to give the power to LED. It start from the highest index of pin to the lower. And I use a flag boolean to decide the direction
+            of light. Each time when the index reach the smallest one or largest one. The flag boolean will flip to the oppsite value. So that the
+            Neon light will be able to go back and forth. Just like that.
+        </p>
+        <div class="precedents">
+            <img src="img/code%20snipet.png">
+            <img src="img/b&b.gif">
+        </div>
+
+        <h2>Final</h2>
+        <p>
+            Finally I make it can be turn on and turn off with switch. Then I also add another method which can change the light patter automatically while
+            the switch is on.
+        </p>
+        <div class="precedents">
+            <img src="img/day2Final.gif" >
+        </div>
     </div>
     <div class = "dayContainer off" id="day3Container">
         <h1>TBD</h1>
