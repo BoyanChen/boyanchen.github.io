@@ -148,7 +148,72 @@
         </div>
     </div>
     <div class = "dayContainer off" id="day3Container">
-        <h1>TBD</h1>
+        <h1>Fragment</h1>
+        <p>
+            This is a visual project achieved by using the particle system in processing. The particle randomly bounce back and forth
+            inside the window. When three particles moving closer enough to each others they can form a semi-transparent panel. Just like
+            a fragment of glasses. The color of the fragments can be changed by clicking.
+        </p>
+        <br>
+        <h2>Conceptualization</h2>
+        <p>
+            I'm watch some awesome processing work produced by particle system. So I want to try to make some by myself. It can also
+            used for the decoration background for my porfolio website. I want to make some random visual effect that has the geometry
+            shape.
+        </p>
+        <br>
+        <h2>Development</h2>
+        <h3>a.Pseudocode</h3>
+        <p>It's not a easy task. Several class and method can be involved. To clarify my thoughts. I start with Pseudocode. So that I can have
+            a clear goal for each phases.
+        </p>
+        <div class="precedents">
+            <img src="img/Pseudocode.JPG">
+        </div>
+        <h3>b.Particle system</h3>
+        <p>
+            To make a random sack of balls get into the canvas. I make a class called Particle to contain the basic setup
+            information for the balls. Then I decide to give them random position, speed and direction. And fixed radius and
+            maximum value of speed. Besides I also add movement and display method. So that they can appear on the canvas and moving.
+            I decide not to remove the particle. And get fixed number of balls bounce inside the window instead. Because bouncing will
+            make it looks more interesting.
+        </p>
+        <div class="precedents">
+            <img src="img/d3class.png">
+            <img src="img/d3m1.png" style="margin-left:40px;">
+            <img src="https://media.giphy.com/media/1vZ6Qd7LkB5cH4n8lW/giphy.gif" style="margin-left:40px;">
+        </div>
+        <br>
+
+        <h3>b. Detect neighbors</h3>
+        <p>
+            I would say this is the hardest and the most struggling part of the project. It is easy to detect two balls
+            when they are getting close to each others. So I easily made the bond appear when only two balls's distance
+            is less than 50...
+        </p>
+        <div class="precedents">
+            <img src="https://media.giphy.com/media/ja0CmLnFY3fImDdA0U/giphy.gif">
+        </div>
+        <p>
+            But the problem happens when I try to fill the color. In processing I just found that I can't fill color between
+            lines. I do some research then I found that I need at least 3 balls to form a shape. A triangle to fill in the color.
+            So I need to record my neighbors. And use a nested loop to loop through the current ball and it's neighbors. And the
+            process is still complex. So I Pseudocode again.
+        </p>
+        <div class="precedents">
+            <img src="img/Pseudocode2.JPG">
+            <img src="img/d3m2.png" style="margin-left:40px; height: 40%">
+        </div>
+        <br>
+        <h2>Final</h2>
+        <p>
+            Finally, I add a mousepressed function to detect the click action from user to change randomly change the fill color
+            of the fragments. And the final output looks great! Just what I want! I will translate to p5 in the future iteration and
+            try to make it be able to change color by itself.
+        </p>
+        <div class="precedents">
+            <img src="https://media.giphy.com/media/1o1ovgboZqlx8vHZH0/giphy.gif" style="width: 70%;height: auto;margin-bottom:40px"  >
+        </div>
     </div>
     <div class = "dayContainer off" id="day4Container">
         <h1>TBD</h1>
