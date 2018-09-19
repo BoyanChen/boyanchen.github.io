@@ -119,6 +119,9 @@ body{
 .upTown h1{
     font-family: 'Comfortaa', cursive;
     font-size: 80px;
+}
+
+.upTown #5In5Title{
     color:red;
 }
 
@@ -220,5 +223,37 @@ body{
 
 .default{
     color: red;
-    text-decoration-line: underline;
+    text-decoration-line: none;
+}
+
+/*1D page css*/
+
+.upTown #1Dtitle{
+    color:yellow;
+}
+
+.contentContainer{
+    width: 60%;
+    height: 100vh;
+    margin-left: 20%;
+    margin-bottom: 50px;
+}
+
+.consequences{
+    display: inline-block;
+    width: 30%;
+    height: 100%;
+    /*border: solid black 3px;*/
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.contentContainer h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.contentContainer p{
+    font-family: 'Cousine', monospace;
+    font-size: 18px;
 }
