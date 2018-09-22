@@ -114,6 +114,13 @@ body{
     vertical-align: center;
 }
 
+#showCase3 img{
+    width: 95%;
+    height: auto;
+    margin-top: 1.5%;
+    vertical-align: center;
+}
+
 /*For detail1*/
 
 .upTown h1{
