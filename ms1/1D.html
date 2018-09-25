@@ -2,22 +2,39 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>1D Writing + Domain</title>
+    <title>1D to 5D</title>
     <link type="text/css" rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Cousine:400,400i,700,700i" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Comfortaa:300,400,700|Montserrat+Subrayada:400,700" rel="stylesheet">
 </head>
 <body>
 <div class="upTown">
-    <h1 style="color: yellow;">1D Writing + Domain</h1>
+    <h1 style="color: yellow;">1D to 5D</h1>
     <a href="index.html"><h3 style="float: right;position:absolute;top:5%; right: 10%;">Home</h3></a>
     <h3>Boyan Chen</h3>
     <h3>Harpreet Sareen</h3>
-    <h3>09/19/18</h3>
+    <h3>IN PROGRESS</h3>
 </div>
 
+<div class="row" style="margin-bottom: 60px">
+    <div class="days default" id="day1" onclick="changeDays(this.id)">
+        <h3>1D + writing</h3>
+    </div>
+    <div class="days" id="day2" onclick="changeDays(this.id)">
+        <h3>2D + Ideation</h3>
+    </div>
+    <div class="days" id="day3" onclick="changeDays(this.id)">
+        <h3>3D</h3>
+    </div>
+    <div class="days" id="day4" onclick="changeDays(this.id)">
+        <h3>4D</h3>
+    </div>
+    <div class="days" id="day5" onclick="changeDays(this.id)">
+        <h3>5D</h3>
+    </div>
+</div >
 <div class="downTown">
-    <div class = "contentContainer" >
+    <div class = "dayContainer" id="day1Container">
         <h1>Domain</h1>
         <h1 style="color: red">Data visualization</h1>
         <h1 style="color: green">Theoretical Physics</h1>
@@ -58,33 +75,31 @@
             </div>
             <div class="consequences" id="c3" onclick="changeConsequences(this.id)">
                 <h3>Past,present and future</h3>
-            </div>
         </div>
 
-
-
+    </div>
         <div class = "concequencesContainer" id="c1Container" >
-            <p>People don't share the same time passage anymore. Instead, each individual should have their own time passage due to the different motion</p>
+            <p style="align:left;">People don't share the same time passage anymore. Instead, each individual should have their own time passage due to the different motion</p>
             <div class="precedents">
                 <img src="https://media.giphy.com/media/vAroUTxTtwpos/giphy.gif" style="width: 50%;height: auto;">
             </div>
         </div>
         <div class = "concequencesContainer off" id="c2Container" >
             <p>Since the time and space are no longer considered as seperat from each other. The motion is shared both on the dimension of time and space. Time can be
-            "squeezed" by the high speed motion.</p>
+                "squeezed" by the high speed motion.</p>
             <div class="precedents">
                 <img src="https://media.giphy.com/media/PrlkxgXrQpn3i/giphy.gif" style="width: 50%;height: auto;">
             </div>
         </div>
         <div class = "concequencesContainer off" id="c3Container">
             <p>This is the most abstract concept of the relative time-space. Since the time and space is fused together. Then if we consider the space is exist. All period of time
-            should also be considered as existed. Which means past, present and future are all exist. This is contradict to our traditional understanding that past has gone and future
-            haven't existed.</p>
+                should also be considered as existed. Which means past, present and future are all exist. This is contradict to our traditional understanding that past has gone and future
+                haven't existed.</p>
             <div class="precedents">
                 <img src="img/Time.png" style="width: 75%;height: auto;">
             </div>
             <p style="font-style: italic; color: grey">This artwork illustrate the concept of existance of all time period. As you can see the sesons on the trees with just a glance,
-            that illustrate a certain concept of relative time-space</p>
+                that illustrate a certain concept of relative time-space</p>
         </div>
         <br>
         <h1>The Reason</h1>
@@ -92,10 +107,57 @@
             From this story of a self conducted research. I think I just found my passion on the analysis of time. Within this exploration, I’m aware that the time can be understanded in a quiet unusual way. Instead of just be limited on the time keeper in the story. I would like to keep researching about visualize time in variety of way. To create the work that illustrate the connection of time and space. In order to show how this connection differentiate and impact our traditional understanding of time.
         </p>
         <br>
+    </div>
+    <div class = "dayContainer off" id="day2Container">
+        <h1>ideations</h1>
+        <div class="row" id="consequences" style="margin-bottom: 100px;">
+            <div class="consequences default" id="c1" onclick="changeConsequences(this.id)">
+                <h3>Field Force Visualization</h3>
+            </div>
+            <div class="consequences" id="c2" onclick="changeConsequences(this.id)">
+                <h3>4D photograph</h3>
+            </div>
+            <div class="consequences" id="c3" onclick="changeConsequences(this.id)">
+                <h3>Theoretical physics visual posters</h3>
+            </div>
+            <div class="consequences" id="c4" onclick="changeConsequences(this.id)">
+                <h3>Time keeper redesign</h3>
+            </div>
+            <div class="consequences" id="c5" onclick="changeConsequences(this.id)">
+                <h3>Human time perception experiment</h3>
+            </div>
+
+        </div>
+        <div class = "concequencesContainer" id="c1Container" >
+            <p style="align:left;">The field force means the a vector field that described a non-contact force acting on a particle at various positions in space. It is a very basic physics concept. This idea originate from the experiment I did in the middle school. I gathered a bunch of iron powder and distribute it disorderly around a powerful electric magnet. Then the power will form a pattern of lines that indicate the magnetic line of force. I was kind of astonish at that time. With this simple experiment. I can perceive an existed thing that I can’t perceive before. In fact, there are so many force field we can’t perceive visually. But they are existed and affect us anytime any where. From this I want to ask if what we visually see defined what is the reality? The answer is definitely negative. So what can really define the term “reality”? It must be something beyond our perception. Force field is one of example. And it should be a good start.
+            </p>
+        </div>
+        <div class = "concequencesContainer off" id="c2Container" >
+            <p>We take photos to catch several important moment. This important moment always is meaningful for us. So that this simple work in 2D therefore have another dimension. Our emotion. It is more than just a graph. It is a memory, a story, or a record of a certain feeling that we may never have in the rest of our life. Time is considered as the 4th dimension in physics. And I kind of finding there is some relationship between it and the photography. I consider photography is a snapshot on the dimension of time. It a certain spot on the time. It seems like time is “frozen” as we take the photography. What will it look like if we make the time also exist in the stationary photography? What will it looks like? Can it affect our emotion on the photography?</p>
+        </div>
+        <div class = "concequencesContainer off" id="c3Container">
+            <p>The theory of relativity is abstract to understand. How motion affect the time is really different from people’s traditional understanding of time. Find a good illustration of the relationship between time-space and motion.</p>
+        </div>
+        <div class = "concequencesContainer off" id="c4Container">
+            <p>According to my previous observation to the timekeeper. They all crafted based on the understanding of the absolute time space. Which means time and space are separated and doesn’t affect each other. Time itself is an unchangeable being. Everybody’s time passage are fixed. However, Einstein’s special theory of relativity proved that it is not true. Time can be squeezed by the high speed motion. So why there is no timekeeper crafted base on the relative time space? What it should look like and how it will change our way of understanding time? </p>
+
+        </div>
+        <div class = "concequencesContainer off" id="c5Container">
+            <p>Some times I find time goes so slow, while sometimes I feel time going so fast(while I was gaming). The watch nowadays are so good about precisely report time. They can’t be wrong about calculation. But why we still “feel” time so differently? Although we have watch, we still percept time by ourselves passively. I want to visualize different people’s perception of time according to different actions. The participants will do the different actions in a same duration. Then I will let them press a button to describe how long they thing the duration is. The longer they pressed, the longer duration they think they have. I’m willing to see the difference.</p>
+        </div>
 
     </div>
-
+    <div class = "dayContainer off" id="day3Container">
+        <h1>IN PROGRESS</h1>
+    </div>
+    <div class = "dayContainer off" id="day4Container">
+        <h1>IN PROGRESS</h1>
+    </div>
+    <div class = "dayContainer off" id="day5Container">
+        <h1>IN PROGRESS</h1>
+    </div>
 </div>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.6/p5.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.6/addons/p5.dom.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.6/addons/p5.sound.js"></script>
