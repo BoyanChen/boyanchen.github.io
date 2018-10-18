@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Public Intervention</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Cousine:400,400i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:300,400,700|Montserrat+Subrayada:400,700" rel="stylesheet">
+</head>
+<body>
+<div class="upTown">
+    <h1 style="color: green;">Public Intervention</h1>
+    <a href="index.html"><h3 style="float: right;position:absolute;top:5%; right: 10%;">Home</h3></a>
+    <h3>Boyan Chen & Anita</h3>
+    <h3>Harpreet Sareen</h3>
+    <h3>10/15/18</h3>
+</div>
+<div class="downTown">
+    <div class = "contentContainer">
+        <h1>Mirror</h1>
+        <p>
+            This is the group project for Anita and me. We create a mirror that is able to display people are looking good when they get close enough.
+        </p>
+        <br>
+        <h2>Ideation and concept</h2>
+        <p>
+           We hanging around in the NYC to observe the behavior of the strangers. Finally we notice a fact that people always tend to see their own reflection on the mirror or glass.
+            We think it is a naturally happened interaction between the mirror/glass and human. Then we do a research on why people want to see their reflection. The result is people
+            look in to mirror to see their reflection because sometimes they feel unconfident about their appearance or to confirm their beauty as a psychological feed. So that we came out
+            an idea that always tell people "you are looking good" when they expect to see their reflection.
+        </p>
+        <br>
+        <h1>Process</h1>
+        <h2>Prototype</h2>
+        <p>
+            We firstly to make a prototype to make selection of the material and the tool we are going to use. For display, we want to use several led lights to make a sentence and use
+            Arduino and distance sensor to control the led lights and detect the distance. As for the mirror material. We've found a two way mirror acrylic. It can reflect 70% of light and
+            get the light at the back through it. So that people can see their reflection when the led is not light up. And the light from led can get through it.
+        </p>
+        <div class="precedents">
+            <img src="img/prototypeI.JPG" style="width: 60%;height: auto">
+        </div>
+        <br>
+
+        <h2>Ways of saying "You look good!"</h2>
+        <p>
+            Since Anita and me are not native speaker. We want more native and funny way to say "you look good". And we definitely don't want to be offensive. In this way, we did a research in DT
+            to find it out. And record the result on the notebook.
+        </p>
+        <div class="precedents">
+            <img src="img/waysToSay.jpg" style="width: 60%;height: auto">
+        </div>
+        <br>
+        <h3>Iteration #1</h3>
+        <p>
+            For the first iteration one, we make the first version of our installation. Since the limitation of our budget. We can afford for a large acrylic two way mirror. As we
+            have in the prototype. So we find an alternative material. The two way material film. This kind of film is created for sticking at one side of the window. It has the same
+            effect of the to way mirror acrylic plastic. But it is way softer than it. For the back light sentences we solder the led light strips on the foam board. The power and distance sensor
+            is controlled by Arduino. And we write code to trigger the led schemes on and off. The trigger distance for this version is 3m.
+        </p>
+        <div class="precedents">
+            <iframe width="700" height="500" src="https://www.youtube.com/embed/K5b_78Tro0Q" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <p style="font-style: italic; color: grey">This two page have very similar content. They are supposed to merge together</p>
+            <img src="img/iteration1.jpg" style="width: 60%; height: auto">
+            <p style="font-style: italic; color: grey">The look of the first version. We choose "lookin fly" and "how u doin" as the sentences</p>
+        </div>
+
+        <h3>Iteration #2</h3>
+        <p>
+            We didn't get very good feed back on the first iteration. People didn't pay much attention on the installation. Because the installation itself doesn't look like a mirror
+            and the trigger distance is too short to trigger the back light. And the second line text is too blurry to see. So we fist change the matterial of the mirror. We purchased
+            a see through plastic. And stick the mirror film on it. And extend the trigger distance to 5m.
+        </p>
+        <div class="precedents">
+            <iframe width="700" height="500" src="https://www.youtube.com/embed/Uk2P_WFkT-A" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <p style="font-style: italic; color: grey">For this iteration we did get some feedback from the strangers</p>
+        </div>
+
+        <h3>Iteration #3</h3>
+        <p>
+           We finally think the the hallway in the Union square subway station is not a very good place. Because we can only put our installation on the side of the walkway. We are
+            not allowed to put on the pillar. So we decide to change to a more open place so that we can put our installation right in front of the passenger. So we move our installtion to
+            the statue of union square. It is a intersection of the road. So that more passengers will pass through it. Finally we get lots of interaction from passengers.
+        </p>
+        <div class="precedents" style="margin-bottom: 200px;">
+
+            <img src="img/passenger1.png" style="width: 30%; height: auto">
+            <img src="img/passenger2.png" style="width: 30%; height: auto">
+            <img src="img/passenger3.png" style="width: 30%; height: auto">
+        </div>
+    </div>
+</div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.6/p5.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.6/addons/p5.dom.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.6/addons/p5.sound.js"></script>
+<script src="sketch.js"></script>
+<script src="js.js"></script>
+</body>
+</html>
