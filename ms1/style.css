@@ -26,7 +26,7 @@ li a {
     font-size: 30px;
     display: block;
     text-align: center;
-    padding: 40px 85px;
+    padding: 40px 70px;
     text-decoration: none;
     /*color: black;*/
 }
@@ -111,6 +111,9 @@ li a {
 #b7 a:hover{
     color: orange;
 }
+#b8 a:hover{
+    color: #5F4B8B;
+}
 
 #showCase1{
     background: red;
@@ -136,6 +139,9 @@ li a {
 }
 #showCase7{
     background: orange  ;
+}
+#showCase8{
+    background: #5F4B8B;
 }
 
 #showCase1{
