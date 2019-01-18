@@ -1,0 +1,518 @@
+
+body{
+    /*font-family: 'Noto Sans', sans-serif;*/
+    font-family: 'Source Sans Pro', sans-serif;
+    /*background-image: url("assets/IndexAssetsOutput/bgTextureV2.svg");*/
+    /*background-repeat: repeat;*/
+}
+div{
+        /*border:solid black 3px;*/
+}
+
+/*navigation bar style*/
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-top: 0;
+    background-color: white;
+    z-index: 1000;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    color: black;
+    font-size: 30px;
+    display: block;
+    text-align: center;
+    padding: 35px 60px;
+    text-decoration: none;
+    -webkit-transition: width 0.5s; /* For Safari 3.1 to 6.0 */
+    transition: width 0.5s;
+}
+
+li img{
+    padding: 15px;
+    padding-left: 82px;
+
+    width: auto;
+    height: 80px;
+
+}
+
+li a:hover{
+    color: #B43832;
+    text-decoration-line: overline;
+}
+
+/*li:hover{*/
+    /*background-color: #B43832;*/
+/*}*/
+
+/*container and footer*/
+.container{
+    position: relative;
+    margin-top: 125px;
+    width: 90%;
+    margin-left: 5%;
+    height: 800px;
+
+}
+.footer{
+    background-color: black;
+    width: 100%;
+    height: 80px;
+    margin: 0;
+    bottom:0;
+}
+
+/*.slogan{*/
+    /*margin: 0;*/
+    /*font-size: 150px;*/
+    /*font-family: 'Monoton', cursive;*/
+/*}*/
+
+#explore{
+    left: 0;
+    top: 0;
+}
+
+#be{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+/*work item styling*/
+.work-item{
+    display: inline-block;
+    position: relative;
+    margin-top: 20px;
+    width: 40%;
+    height: 30%;
+    margin-left: 5%;
+}
+
+.pic{
+    position: absolute;
+    right: 0;
+    height: auto;
+    width: 90%;
+}
+.tag{
+    position: absolute;
+    width: 15%;
+    height: 30%;
+    background-color: black;
+    left: 0;
+    margin-top: 5%;
+    padding: 10px;
+    padding-left: 20px;
+    -webkit-transition: width 1s; /* For Safari 3.1 to 6.0 */
+    transition: width 1s;
+}
+
+.tag:hover{
+    width: 80%;
+    opacity: 30%;
+
+}
+
+
+
+#time .tag{
+    background-color: #5fc0b7;
+}
+
+#time .tag:hover span{
+    display: contents;
+}
+
+#time .tag span{
+    display: none;
+    color: white;
+}
+
+#hangMan .tag{
+    background-color: #d9d9d9;
+}
+#hangMan .tag:hover span{
+    display: contents;
+}
+
+#hangMan .tag span{
+    display: none;
+    color: black;
+}
+
+#runHero .tag{
+    background-color: #348fce;
+}
+#runHero .tag:hover span{
+    display: contents;
+}
+
+#runHero .tag span{
+    display: none;
+    color: white;
+}
+
+#dashBoard .tag{
+    background-color: red;
+}
+#dashBoard .tag:hover span{
+    display: contents;
+}
+
+#dashBoard .tag span{
+    display: none;
+    color: white;
+}
+
+#muExplore .tag{
+    background-color: #D2353E;
+}
+#muExplore .tag:hover span{
+    display: contents;
+}
+
+#muExplore .tag span{
+    display: none;
+    color: white;
+}
+
+#search .tag{
+    background-color:#2e2f1d;
+}
+#search .tag:hover span{
+    display: contents;
+}
+
+#search .tag span{
+    display: none;
+    color: white;
+}
+
+#part-2{
+    margin-top: 80px;
+}
+
+.active{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+}
+
+#workPage{
+    position: relative;
+    margin-top: 165px;
+    width: 90%;
+    margin-left: 5%;
+    height: 1400px;
+}
+
+
+
+/*about styling*/
+
+.self-intro{
+    margin-left: 15%;
+    margin-top: 5%;
+    width: 70%;
+    height: 80%;
+}
+
+/*About page styling*/
+#aboutPage{
+    height: 80vh;
+}
+
+.self-intro h2{
+    margin: 0;
+}
+
+.self-intro h3{
+    margin: 0;
+
+}
+
+
+/*index styling*/
+.index{
+    position: absolute;
+}
+
+
+#mockup{
+
+    margin-left: 25%;
+    margin-top: 5%;
+    z-index: 1000;
+}
+
+#phone{
+
+    top: 15%;
+    left: 30%;
+    z-index: 1001;
+}
+
+#timeSpace{
+
+    top: -1%;
+    left: 6%;
+    z-index: 900;
+}
+
+#swift{
+
+    left: 7%;
+    top: 28.5%;
+    z-index: 850;
+}
+
+#iWatchWf{
+
+    left: 6%;
+    bottom: 5%;
+    z-index: 851;
+}
+
+#cssCode{
+
+    left: 45%;
+    bottom: 0;
+    z-index: 852;
+}
+#ofCode{
+
+    right: 8.75%;
+    bottom: 0;
+    z-index: 853;
+}
+
+#runHeroWf{
+
+    right: 3%;
+    bottom: 30%;
+    z-index: 854;
+}
+
+#dataBase{
+
+    right: 5%;
+    top:2%;
+    z-index: 853;
+}
+
+#ui{
+    left:0;
+    bottom: 1%;
+}
+
+#ux{
+    right: 0;
+    top: 1%;
+    z-index: 870;
+}
+
+#design{
+    margin: 0;
+    font-weight: 600;
+    font-size: 80px;
+    color: white;
+    left: 17%;
+    top: -1% ;
+    z-index: 1111;
+}
+
+#tech{
+    margin: 0;
+    font-size: 77px;
+    color: white;
+    right: 9%;
+    bottom: 4%;
+    z-index: 1111;
+    font-weight: 600;
+}
+
+#mu{
+    margin-left: 41%;
+    margin-top:7%;
+    z-index: 1112;
+}
+
+#carPlus{
+    top:-5%;
+    left: 30%;
+    z-index: 849;
+}
+
+/*project page styling*/
+.projectPage .container{
+    margin-top: 100px;
+}
+
+.projectIntro{
+    margin: 0;
+    width: 100%;
+    height: 250px;
+    /*padding-top: 20px;*/
+    /*padding-bottom: 20px;*/
+    /*padding-left: 0;*/
+    /*padding-right: 0;*/
+}
+
+.projectIntro h1{
+    font-weight: 600;
+    font-size: 40px;
+    margin: 10px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.projectIntro h3{
+    font-weight: 400;
+    font-size: 25px;
+    margin: 10px;
+    margin-left: 0px;
+
+}
+
+.projectText{
+    padding: 0px;
+    /*margin-left: 30px;*/
+}
+
+.projectController{
+    display: inline-block;
+    width: 30%;
+    height: 50px;
+    border: solid black 2px;
+    float: right;
+    border-radius: 25px;
+    text-align: center;
+    /*margin-right: 30px ;*/
+
+}
+.projectText{
+    display: inline-block;
+}
+
+.controllerItem{
+    display: inline-block;
+    width: 30%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 20px ;
+}
+
+#hangmanPage{
+    height: 2200px;
+}
+
+#searchPage{
+    height: 3800px;
+}
+
+.iPhone{
+    z-index: 40;
+    width: 25%;
+    height: auto;
+}
+
+#index{
+    top: 11%;
+    left: 9%;
+}
+
+#pairing{
+    top: 11%;
+    right: 9%;
+}
+
+#DeviceControl{
+    top: 33.5%;
+    left: 3%;
+}
+
+/*.intro{*/
+    /*width: 100%;*/
+    /*height:1920px;*/
+/*}*/
+
+.intro h1{
+    font-weight: 600;
+    font-size: 60px;
+    margin-bottom: 0;
+}
+.intro p{
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.intro h2{
+    font-weight: 600;
+}
+
+.description{
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.description p{
+    font-style:italic;
+    color:grey;
+    font-size: 20px;
+}
+
+#timePage{
+    height: 4000px;
+}
+
+#hangmanPage{
+    height: 4000px;
+}
+
+.imgDescription{
+    display: inline-block;
+    width: 30%;
+    margin-left: 10%;
+    text-align: center;
+}
+
+
+#searchPage{
+    background-color: #e4da60;
+    height: 4500px;
+}
+
+#searchPage h1{
+    font-weight: 600;
+    font-size: 60px;
+}
+
+#runHeroPage{
+    height: 6200px;
+    /*background: #348fce;*/
+}
+
+#dashBoardPage{
+    height: 3700px;
+}
+
+#muExplorePage{
+    height: 6000px;
+}
