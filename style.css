@@ -91,14 +91,58 @@ li a:hover{
 }
 
 /*work item styling*/
+/*.work-item{*/
+    /*display: inline-block;*/
+    /*position: relative;*/
+    /*margin-top: 20px;*/
+    /*width: 40%;*/
+    /*height: 30%;*/
+    /*margin-left: 5%;*/
+/*}*/
+
 .work-item{
-    display: inline-block;
     position: relative;
-    margin-top: 20px;
+    display: inline-block;
+    float: left;
     width: 40%;
-    height: 30%;
     margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
 }
+
+.work-item img{
+    display: block;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 0;
+    opacity: 0;
+    transition: .5s ease;
+    padding: 10px;
+}
+
+.overlay .title{
+    font-weight: bold;
+    font-size: 35px;
+    color: white;
+}
+
+.overlay .textIntro{
+    font-size: 28px;
+    color: white;
+}
+
+.work-item:hover .overlay {
+    opacity:1;
+    width: 100%;
+}
+
 
 .pic{
     position: absolute;
@@ -106,104 +150,101 @@ li a:hover{
     height: auto;
     width: 90%;
 }
-.tag{
-    position: absolute;
-    width: 15%;
-    height: 30%;
-    background-color: black;
-    left: 0;
-    margin-top: 5%;
-    padding: 10px;
-    padding-left: 20px;
-    -webkit-transition: width 1s; /* For Safari 3.1 to 6.0 */
-    transition: width 1s;
-}
-
-.tag .title{
-    font-weight: bold;
-    font-size: 28px;
-}
-
-.tag:hover{
-    width: 80%;
-    opacity: 30%;
-
-}
+/*.tag{*/
+    /*position: absolute;*/
+    /*width: 15%;*/
+    /*height: 30%;*/
+    /*background-color: black;*/
+    /*left: 0;*/
+    /*margin-top: 5%;*/
+    /*padding: 10px;*/
+    /*padding-left: 20px;*/
+    /*-webkit-transition: width 1s; !* For Safari 3.1 to 6.0 *!*/
+    /*transition: width 1s;*/
+/*}*/
 
 
 
-#time .tag{
+/*.tag:hover{*/
+    /*width: 80%;*/
+    /*opacity: 30%;*/
+
+/*}*/
+
+
+
+#time .overlay{
     background-color: #5fc0b7;
 }
 
-#time .tag:hover span{
-    display: contents;
-}
+/*#time .overlay:hover span{*/
+    /*display: contents;*/
+/*}*/
 
-#time .tag span{
-    display: none;
-    color: white;
-}
+/*#time .overlay span{*/
+    /*display: none;*/
+    /*color: white;*/
+/*}*/
 
-#hangMan .tag{
+#hangMan .overlay{
     background-color: #d9d9d9;
 }
-#hangMan .tag:hover span{
-    display: contents;
-}
+/*#hangMan .overlay:hover span{*/
+    /*display: contents;*/
+/*}*/
 
-#hangMan .tag span{
-    display: none;
-    color: black;
-}
+/*#hangMan .overlay span{*/
+    /*display: none;*/
+    /*color: black;*/
+/*}*/
 
-#runHero .tag{
+#runHero .overlay{
     background-color: #348fce;
 }
-#runHero .tag:hover span{
-    display: contents;
-}
+/*#runHero .overlay:hover span{*/
+    /*display: contents;*/
+/*}*/
 
-#runHero .tag span{
-    display: none;
-    color: white;
-}
+/*#runHero .overlay span{*/
+    /*display: none;*/
+    /*color: white;*/
+/*}*/
 
-#dashBoard .tag{
+#dashBoard .overlay{
     background-color: red;
 }
-#dashBoard .tag:hover span{
-    display: contents;
-}
+/*#dashBoard .overlay:hover span{*/
+    /*display: contents;*/
+/*}*/
 
-#dashBoard .tag span{
-    display: none;
-    color: white;
-}
+/*#dashBoard .overlay span{*/
+    /*display: none;*/
+    /*color: white;*/
+/*}*/
 
-#muExplore .tag{
+#muExplore .overlay{
     background-color: #D2353E;
 }
-#muExplore .tag:hover span{
-    display: contents;
-}
+/*#muExplore .overlay:hover span{*/
+    /*display: contents;*/
+/*}*/
 
-#muExplore .tag span{
-    display: none;
-    color: white;
-}
+/*#muExplore .overlay span{*/
+    /*display: none;*/
+    /*color: white;*/
+/*}*/
 
-#search .tag{
+#search .overlay{
     background-color:#2e2f1d;
 }
-#search .tag:hover span{
-    display: contents;
-}
+/*#search .tag:hover span{*/
+    /*display: contents;*/
+/*}*/
 
-#search .tag span{
-    display: none;
-    color: white;
-}
+/*#search . span{*/
+    /*display: none;*/
+    /*color: white;*/
+/*}*/
 
 #part-2{
     margin-top: 80px;
@@ -553,14 +594,16 @@ li a:hover{
 
     #workPage{
         margin-top: 120px;
-        height: 1000px;
+        height: 3500px;
     }
 
     .work-item{
-        margin-top: 10px;
-        width: 42%;
-        height: 30%;
-        margin-left: 5%;
+        /*margin-top: 10px;*/
+        /*width: 42%;*/
+        /*height: 30%;*/
+        /*margin-left: 5%;*/
+        width: 80%;
+        margin-left: 10%;
     }
 
     .self-intro{
@@ -592,7 +635,7 @@ li a:hover{
 
     #workPage{
         margin-top: 70px;
-        height: 2800px;
+        height: 200px;
     }
 
     .tag{
@@ -601,18 +644,17 @@ li a:hover{
         height: 100px;
     }
 
-    .tag .title{
+    .overlay .title{
+        font-size: 28px;
+    }
+
+    .overlay .textIntro{
         font-size: 20px;
     }
 
-    .tag .textIntro{
-        font-size: 15px;
-    }
-
     .work-item{
-        margin-top: 30px;
-        width: 100%;
-        height: 15%;
+        width: 80%;
+        margin-left: 10%;
     }
 
     .projectController{
@@ -636,6 +678,7 @@ li a:hover{
         width: 100%;
         margin: 0;
     }
+
 
 
 }

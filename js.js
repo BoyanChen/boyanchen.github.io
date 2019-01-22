@@ -1,4 +1,4 @@
-var galleryArray = ["timePage","hangmanPage","runHeroPage","dashBoardPage","muExplorePage","searchPage"];
+var galleryArray = ["runHeroPage","searchPage","hangmanPage","muExplorePage","timePage","dashBoardPage"];
 $(document).ready(function () {
    // console.log("skr");
    //  var count = 0,
