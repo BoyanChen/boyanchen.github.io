@@ -1,9 +1,7 @@
 
 body{
-    /*font-family: 'Noto Sans', sans-serif;*/
-    font-family: 'Source Sans Pro', sans-serif;
-    /*background-image: url("assets/IndexAssetsOutput/bgTextureV2.svg");*/
-    /*background-repeat: repeat;*/
+    font-family: usual, sans-serif;
+    margin: 0;
 }
 div{
         /*border:solid black 3px;*/
@@ -11,103 +9,93 @@ div{
 
 /*navigation bar style*/
 
-ul{
-    list-style-type: none;
-    padding: 0;
-    overflow: hidden;
+.navBar{
     position: fixed;
     top: 0;
     width: 100%;
-    margin-top: 0;
+    height: 80px;
     background-color: white;
-    z-index: 2000;
+    vertical-align: middle;
+    padding-top: 12px;
+    padding-bottom: 12px;
+
+    z-index: 3000;
 }
 
-li {
-    float: left;
+.logoContainer{
+    display: inline-block;
+    margin-left: 10%;
+    width: 15%;
+    height: 80px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
-li a {
-    color: black;
-    font-size: 30px;
-    display: block;
-    text-align: center;
-    padding: 35px 60px;
-    text-decoration: none;
-    -webkit-transition: width 0.5s; /* For Safari 3.1 to 6.0 */
-    transition: width 0.5s;
-}
-
-li img{
-    padding: 10px;
-    padding-left: 82px;
-
-    width: auto;
+.btnContainer{
+    display: inline-block;
+    float: right;
+    margin-right: 10%;
+    width: 30%;
     height: 80px;
 
 }
 
-li a:hover{
-    color: #B43832;
-    text-decoration-line: overline;
+.navBtn{
+    display: inline-block;
+    float: right;
+    width: 30%;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 27px;
 }
 
-/*li:hover{*/
-    /*background-color: #B43832;*/
-/*}*/
+.navBtn a{
+    text-decoration-line: none;
+    text-decoration-color: black;
+    color: black;
+}
+
+.navBtn a:hover{
+    text-decoration-line: underline;
+    -webkit-transition: width 1s; /* For Safari 3.1 to 6.0 */
+    transition: width 1s;
+}
 
 /*container and footer*/
 .container{
     position: relative;
     margin-top: 125px;
-    width: 90%;
-    margin-left: 5%;
-    height: 800px;
-
+    width: 80%;
+    margin-left: 10%;
+    height: 100vh;
 }
+
+#workPage{
+    margin-top: 160px;
+    height: 100vh;
+}
+
 .footer{
     background-color: black;
+    color: white;
     width: 100%;
     height: 80px;
     margin: 0;
     bottom:0;
+    text-align: center;
+    line-height: 80px;
 }
-
-/*.slogan{*/
-    /*margin: 0;*/
-    /*font-size: 150px;*/
-    /*font-family: 'Monoton', cursive;*/
-/*}*/
-
-#explore{
-    left: 0;
-    top: 0;
-}
-
-#be{
-    position: absolute;
-    right: 0;
-    bottom: 0;
-}
-
-/*work item styling*/
-/*.work-item{*/
-    /*display: inline-block;*/
-    /*position: relative;*/
-    /*margin-top: 20px;*/
-    /*width: 40%;*/
-    /*height: 30%;*/
-    /*margin-left: 5%;*/
-/*}*/
-
+/*work item style*/
 .work-item{
     position: relative;
     display: inline-block;
     float: left;
-    width: 40%;
-    margin-left: 5%;
-    margin-right: 5%;
+    width: 31%;
+    margin-right: 2%;
+    /*margin-right: 5%;*/
     margin-bottom: 5%;
+    padding: 0;
 }
 
 .work-item img{
@@ -120,27 +108,34 @@ li a:hover{
     bottom: 0;
     left: 0;
     right: 0;
-    height: 100%;
+    height: 97%%;
     width: 0;
     opacity: 0;
     transition: .5s ease;
-    padding: 10px;
+    padding: 1%;
 }
 
 .overlay .title{
-    font-weight: bold;
-    font-size: 35px;
+    font-weight: 600;
+    font-size: 27px;
     color: white;
+    margin-left: 15px;
+    margin-top: 40px;
+    line-height: 40px;
 }
 
 .overlay .textIntro{
-    font-size: 28px;
+    font-size: 18px;
     color: white;
+    font-weight: 400;
+    margin-left: 15px;
+    margin-top: 15px;
+    line-height: 30px;
 }
 
 .work-item:hover .overlay {
     opacity:1;
-    width: 100%;
+    width: 98%;
 }
 
 
@@ -150,26 +145,6 @@ li a:hover{
     height: auto;
     width: 90%;
 }
-/*.tag{*/
-    /*position: absolute;*/
-    /*width: 15%;*/
-    /*height: 30%;*/
-    /*background-color: black;*/
-    /*left: 0;*/
-    /*margin-top: 5%;*/
-    /*padding: 10px;*/
-    /*padding-left: 20px;*/
-    /*-webkit-transition: width 1s; !* For Safari 3.1 to 6.0 *!*/
-    /*transition: width 1s;*/
-/*}*/
-
-
-
-/*.tag:hover{*/
-    /*width: 80%;*/
-    /*opacity: 30%;*/
-
-/*}*/
 
 
 
@@ -177,93 +152,29 @@ li a:hover{
     background-color: #5fc0b7;
 }
 
-/*#time .overlay:hover span{*/
-    /*display: contents;*/
-/*}*/
-
-/*#time .overlay span{*/
-    /*display: none;*/
-    /*color: white;*/
-/*}*/
 
 #hangMan .overlay{
     background-color: #d9d9d9;
 }
-/*#hangMan .overlay:hover span{*/
-    /*display: contents;*/
-/*}*/
 
-/*#hangMan .overlay span{*/
-    /*display: none;*/
-    /*color: black;*/
-/*}*/
 
 #runHero .overlay{
     background-color: #348fce;
 }
-/*#runHero .overlay:hover span{*/
-    /*display: contents;*/
-/*}*/
-
-/*#runHero .overlay span{*/
-    /*display: none;*/
-    /*color: white;*/
-/*}*/
 
 #dashBoard .overlay{
     background-color: red;
 }
-/*#dashBoard .overlay:hover span{*/
-    /*display: contents;*/
-/*}*/
 
-/*#dashBoard .overlay span{*/
-    /*display: none;*/
-    /*color: white;*/
-/*}*/
 
 #muExplore .overlay{
     background-color: #D2353E;
 }
-/*#muExplore .overlay:hover span{*/
-    /*display: contents;*/
-/*}*/
 
-/*#muExplore .overlay span{*/
-    /*display: none;*/
-    /*color: white;*/
-/*}*/
 
 #search .overlay{
     background-color:#2e2f1d;
 }
-/*#search .tag:hover span{*/
-    /*display: contents;*/
-/*}*/
-
-/*#search . span{*/
-    /*display: none;*/
-    /*color: white;*/
-/*}*/
-
-#part-2{
-    margin-top: 80px;
-}
-
-.active{
-    font-family: 'Noto Sans', sans-serif;
-    font-weight: 400;
-}
-
-#workPage{
-    position: relative;
-    margin-top: 165px;
-    width: 90%;
-    margin-left: 5%;
-    height: 1400px;
-}
-
-
 
 /*about styling*/
 
@@ -288,118 +199,6 @@ li a:hover{
 
 }
 
-
-
-/*index styling*/
-.index{
-    position: absolute;
-}
-
-
-#mockup{
-
-    margin-left: 25%;
-    margin-top: 5%;
-    z-index: 1000;
-}
-
-#phone{
-
-    top: 15%;
-    left: 30%;
-    z-index: 1001;
-}
-
-#timeSpace{
-
-    top: -1%;
-    left: 6%;
-    z-index: 900;
-}
-
-#swift{
-
-    left: 7%;
-    top: 28.5%;
-    z-index: 850;
-}
-
-#iWatchWf{
-
-    left: 6%;
-    bottom: 5%;
-    z-index: 851;
-}
-
-#cssCode{
-
-    left: 45%;
-    bottom: 0;
-    z-index: 852;
-}
-#ofCode{
-
-    right: 8.75%;
-    bottom: 0;
-    z-index: 853;
-}
-
-#runHeroWf{
-
-    right: 3%;
-    bottom: 30%;
-    z-index: 854;
-}
-
-#dataBase{
-
-    right: 5%;
-    top:2%;
-    z-index: 853;
-}
-
-#ui{
-    left:0;
-    bottom: 1%;
-}
-
-#ux{
-    right: 0;
-    top: 1%;
-    z-index: 870;
-}
-
-#design{
-    margin: 0;
-    font-weight: 600;
-    font-size: 80px;
-    color: white;
-    left: 17%;
-    top: -1% ;
-    z-index: 1111;
-}
-
-#tech{
-    margin: 0;
-    font-size: 77px;
-    color: white;
-    right: 9%;
-    bottom: 4%;
-    z-index: 1111;
-    font-weight: 600;
-}
-
-#mu{
-    margin-left: 41%;
-    margin-top:7%;
-    z-index: 1112;
-}
-
-#carPlus{
-    top:-5%;
-    left: 30%;
-    z-index: 849;
-}
 
 /*project page styling*/
 .projectPage .container{
@@ -461,13 +260,6 @@ li a:hover{
     font-size: 20px ;
 }
 
-#hangmanPage{
-    height: 35%px;
-}
-
-#searchPage{
-    height: 35%px;
-}
 
 .iPhone{
     z-index: 40;
@@ -525,14 +317,6 @@ li a:hover{
     font-size: 20px;
 }
 
-#timePage{
-    height: 35%;
-}
-
-#hangmanPage{
-    height: 35%;
-}
-
 .imgDescription{
     display: inline-block;
     width: 30%;
@@ -540,29 +324,11 @@ li a:hover{
     text-align: center;
 }
 
-
-#searchPage{
-    background-color: #e4da60;
-    height: 35%;
-}
-
 #searchPage h1{
     font-weight: 600;
     font-size: 60px;
 }
 
-#runHeroPage{
-    height: 35%;
-    /*background: #348fce;*/
-}
-
-#dashBoardPage{
-    height: 35%;
-}
-
-#muExplorePage{
-    height: 35%;
-}
 
 @media only screen and (max-width: 1166px) {
     li a {

@@ -1,21 +1,59 @@
+var runHeroPage = {
+    name: "Run! Hero",
+    linkName:"runHeroPage",
+    intro:"Mobile Fitness Application",
+    skill:"Gamification/UI/UX Design",
+    date:"5/12/2017",
+    status:"Done."
+};
+
+var muExplorePage = {
+    name:"MU Explore",
+    linkName:"muExplore",
+    intro:"Mobile Fitness Application",
+    skill:"Gamification/UI/UX Design",
+    date:"5/12/2017",
+    status:"Done."
+};
+
+var searchPage = {
+    name:"Search",
+    linkName:"search",
+    intro:"Mobile Fitness Application",
+    skill:"Gamification/UI/UX Design",
+    date:"5/12/2017",
+    status:"Done."
+};
+
+var hangmanPage = {
+    name:"Hangman",
+    linkName:"hangman",
+    intro:"Mobile Fitness Application",
+    skill:"Gamification/UI/UX Design",
+    date:"5/12/2017",
+    status:"Done."
+};
+
+var timePage = {
+    name:"Time",
+    linkName:"time",
+    intro:"Mobile Fitness Application",
+    skill:"Gamification/UI/UX Design",
+    date:"5/12/2017",
+    status:"Done."
+};
+
+var dashBoardPage = {
+    name:"Multi Functional Dashboard",
+    linkName:"dashBoard",
+    intro: "Mobile Fitness Application",
+    skill: "Gamification/UI/UX Design",
+    date: "5/12/2017",
+    status: "Done"
+};
 var galleryArray = ["runHeroPage","searchPage","hangmanPage","muExplorePage","timePage","dashBoardPage"];
 $(document).ready(function () {
-   // console.log("skr");
-   //  var count = 0,
-   //      $svg = $('svg').drawsvg({
-   //          callback: function() {
-   //             console.log("complete " + (count++) +" times!");
-   //              animate();
-   //          }
-   //      });
-   //
-   //  function animate() {
-   //      $svg.drawsvg('animate');
-   //  }
-   //
-   //  animate();
     checkProject();
-
     $(function(){
         $("#design").hover(
             function(){
@@ -36,8 +74,6 @@ $(document).ready(function () {
             }
         );
     });
-
-
     $(function(){
         $("#tech").hover(
             function(){
@@ -85,11 +121,17 @@ function checkProject() {
         }
         $(".projectIntro").append("        <div class=\"projectController\">\n" +
             " <a href='"+ previousPage.substr(0,previousPage.length-4) +".html'>" + "<div class=\"controllerItem\" id=\"previous\">Last</div>\n" + "</a>" +
-            " <a href='works.html'>" + "<div class=\"controllerItem\" id=\"gallery\">Gallery</div>\n" + "</a>" +
+            " <a href='index.html'>" + "<div class=\"controllerItem\" id=\"gallery\">Gallery</div>\n" + "</a>" +
             " <a href='"+ nextPage.substr(0,nextPage.length-4) +".html'>" + "<div class=\"controllerItem\" id=\"next\">Next</div>\n" + "</a>" +
             "        </div>");
 
     }else{
         setTimeout(checkProject,50);
+    }
+}
+
+function checkWorks() {
+    if($("#workPage").is(':visible')){
+
     }
 }
