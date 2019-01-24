@@ -68,7 +68,10 @@ div{
     margin-top: 125px;
     width: 80%;
     margin-left: 10%;
-    height: 100vh;
+    /*height: 100vh;*/
+    min-height: 100vh;
+    overflow: hidden;
+    margin-bottom: 60px;
 }
 
 #workPage{
@@ -219,20 +222,20 @@ div{
     font-weight: 600;
     font-size: 40px;
     margin: 10px;
-    margin-left: 0px;
-    margin-top: 0px;
+    margin-left: 0;
+    margin-top: 0;
 }
 
 .projectIntro h3{
     font-weight: 400;
     font-size: 25px;
     margin: 10px;
-    margin-left: 0px;
+    margin-left: 0;
 
 }
 
 .projectText{
-    padding: 0px;
+    padding: 0;
     /*margin-left: 30px;*/
 }
 
