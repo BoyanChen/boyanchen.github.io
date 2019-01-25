@@ -111,7 +111,7 @@ div{
     bottom: 0;
     left: 0;
     right: 0;
-    height: 97%%;
+    height: 97%;
     width: 0;
     opacity: 0;
     transition: .5s ease;
@@ -320,12 +320,17 @@ div{
     font-size: 20px;
 }
 
-.imgDescription{
+.rhResearch{
     display: inline-block;
-    width: 30%;
-    margin-left: 10%;
-    text-align: center;
+    float: left;
 }
+
+/*.imgDescription{*/
+    /*display: inline-block;*/
+    /*width: 30%;*/
+    /*margin-left: 10%;*/
+    /*text-align: center;*/
+/*}*/
 
 #searchPage h1{
     font-weight: 600;
@@ -364,6 +369,7 @@ div{
     #workPage{
         margin-top: 120px;
         height: 3500px;
+        margin-bottom: 0;r
     }
 
     .work-item{
@@ -447,7 +453,6 @@ div{
         width: 100%;
         margin: 0;
     }
-
 
 
 }
