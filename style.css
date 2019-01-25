@@ -69,7 +69,7 @@ div{
     width: 80%;
     margin-left: 10%;
     /*height: 100vh;*/
-    min-height: 100vh;
+    min-height: 50vh;
     overflow: hidden;
     margin-bottom: 60px;
 }
@@ -77,6 +77,21 @@ div{
 #workPage{
     margin-top: 160px;
     height: 100vh;
+}
+
+.videoContainer{
+    position: relative;
+    width: 100%;
+    min-height:800px;
+    overflow: hidden;
+}
+
+.videoContainer iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: auto;
 }
 
 .footer{
@@ -292,13 +307,14 @@ div{
 
 .intro h1{
     font-weight: 600;
-    font-size: 60px;
+    font-size: 50px;
     margin-bottom: 0;
 }
 .intro p{
     font-weight: 400;
     font-size: 20px;
     margin-top: 0;
+    line-height: 35px;
 }
 
 .intro h2{
