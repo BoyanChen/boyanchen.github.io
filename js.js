@@ -119,10 +119,10 @@ function checkProject() {
         }else{
             previousPage = galleryArray[previousNum];
         }
-        $(".projectIntro").append("        <div class=\"projectController\">\n" +
-            " <a href='"+ previousPage.substr(0,previousPage.length-4) +".html'>" + "<div class=\"controllerItem\" id=\"previous\">Last</div>\n" + "</a>" +
-            " <a href='index.html'>" + "<div class=\"controllerItem\" id=\"gallery\">Gallery</div>\n" + "</a>" +
-            " <a href='"+ nextPage.substr(0,nextPage.length-4) +".html'>" + "<div class=\"controllerItem\" id=\"next\">Next</div>\n" + "</a>" +
+        $(".projectIntro").append("        <div class=\"projectController\">" +
+            " <a href='"+ previousPage.substr(0,previousPage.length-4) +".html'>" + "<div class=\"controllerItem\" id=\"previous\">Previous</div>" + "</a>" +
+            " <a href='index.html'>" + "<div class=\"controllerItem\" id=\"gallery\">Gallery</div>" + "</a>" +
+            " <a href='"+ nextPage.substr(0,nextPage.length-4) +".html'>" + "<div class=\"controllerItem\" id=\"next\">Next</div>" + "</a>" +
             "        </div>");
 
     }else{

@@ -69,15 +69,15 @@ div{
     width: 80%;
     margin-left: 10%;
     /*height: 100vh;*/
-    min-height: 50vh;
+    min-height: 72vh;
     overflow: hidden;
     margin-bottom: 60px;
 }
 
-#workPage{
-    margin-top: 160px;
-    height: 100vh;
-}
+/*#workPage{*/
+    /*margin-top: 160px;*/
+    /*height: 100vh;*/
+/*}*/
 
 .videoContainer{
     position: relative;
@@ -112,7 +112,7 @@ div{
     width: 31%;
     margin-right: 2%;
     /*margin-right: 5%;*/
-    margin-bottom: 5%;
+    margin-bottom: 2%;
     padding: 0;
 }
 
@@ -348,127 +348,71 @@ div{
     /*text-align: center;*/
 /*}*/
 
-#searchPage h1{
-    font-weight: 600;
-    font-size: 60px;
+/*#searchPage h1{*/
+    /*font-weight: 600;*/
+    /*font-size: 60px;*/
+/*}*/
+
+
+@media only screen and (max-width: 1242px) {
+    .container{
+        margin-top: 110px;
+    }
+
+    .btnContainer{
+        width: 35%;
+    }
+
+    .logoContainer{
+        width: 20%;
+    }
+    .navBtn{
+        font-size: 21px;
+    }
+    .work-item{
+        width: 45%;
+    }
+
+    .projectController .controllerItem{
+        font-size: 18px;
+    }
+
 }
 
-
-@media only screen and (max-width: 1166px) {
-    li a {
-        font-size: 20px;
-        padding: 25px 40px;
-    }
-    li img{
-        height: 50px;
-        padding-left: 35px;
-    }
+@media only screen and (max-width: 876px){
 
     .container{
-        margin-top: 90px;
-    }
-
-    .tag{
-        padding: 3px;
-        padding-left: 15px;
-        height: 35%;
-    }
-
-    .tag .title{
-        font-size: 20px;
-    }
-
-    .tag .textIntro{
-        font-size: 15px;
-    }
-
-    #workPage{
-        margin-top: 120px;
-        height: 3500px;
-        margin-bottom: 0;r
-    }
-
-    .work-item{
-        /*margin-top: 10px;*/
-        /*width: 42%;*/
-        /*height: 30%;*/
-        /*margin-left: 5%;*/
-        width: 80%;
-        margin-left: 10%;
-    }
-
-    .self-intro{
         width: 90%;
+        margin-left: 5%;
+
+        margin-top: 110px;
+    }
+    #workPage{
+        margin-top: 110px;
+    }
+
+    .btnContainer{
+        width: 50%;
+        margin-right: 5%;
+    }
+
+    .navBtn{
+        font-size: 17px;
+    }
+
+    .logoContainer{
+        width: 30%;
         margin-left: 5%;
     }
 
-}
-
-@media only screen and (max-width: 798px){
-    li a {
-        font-size: 15px;
-        padding: 15px 14px;
-    }
-    li img{
-        height: 35px;
-        padding-left: 0;
+    .work-item{
+        width: 100%;
     }
 
     .projectController{
-        width: 40%;
         float: left;
+        width: 60%;
         margin-bottom: 20px;
     }
-
-    .container{
-        margin-top: 60px;
-    }
-
-    #workPage{
-        margin-top: 70px;
-        height: 200px;
-    }
-
-    .tag{
-        padding: 7px;
-        padding-left: 15px;
-        height: 100px;
-    }
-
-    .overlay .title{
-        font-size: 28px;
-    }
-
-    .overlay .textIntro{
-        font-size: 20px;
-    }
-
-    .work-item{
-        width: 80%;
-        margin-left: 10%;
-    }
-
-    .projectController{
-        width: 70%;
-    }
-
-    .intro h1{
-        font-size: 40px;
-    }
-
-    .intro p{
-        font-size: 15px;
-    }
-
-    #searchPage h1{
-        font-weight: 600;
-        font-size: 40px;
-    }
-
-    .self-intro{
-        width: 100%;
-        margin: 0;
-    }
-
 
 }
