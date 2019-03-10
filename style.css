@@ -9,6 +9,10 @@ div{
 
 /*navigation bar style*/
 
+p{
+    font-weight: 300;
+}
+
 .navBar{
     position: fixed;
     top: 0;
@@ -71,7 +75,28 @@ div{
     /*height: 100vh;*/
     min-height: 72vh;
     overflow: hidden;
+    margin-bottom: 0px;
+}
+
+
+#schoolWork{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    min-height: 60px;
     margin-bottom: 60px;
+    border: black solid 3px;
+    margin-left: 10%;
+    margin-top: 0px;
+}
+
+.schoolWork-Item{
+    width: 100%;
+    line-height: 60px;
+    text-align: center;
+}
+
+.schoolWork-Item span{
+    display: inline-block;
 }
 
 /*#workPage{*/
@@ -163,8 +188,6 @@ div{
     height: auto;
     width: 90%;
 }
-
-
 
 #time .overlay{
     background-color: #5fc0b7;
@@ -306,19 +329,19 @@ div{
 /*}*/
 
 .intro h1{
-    font-weight: 600;
-    font-size: 50px;
-    margin-bottom: 0;
+    font-weight: 500;
+    font-size: 40px;
+    margin-bottom: 10px;
 }
 .intro p{
-    font-weight: 400;
+    font-weight: 300;
     font-size: 20px;
     margin-top: 0;
     line-height: 35px;
 }
 
 .intro h2{
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .description{
@@ -339,6 +362,33 @@ div{
 .rhResearch{
     display: inline-block;
     float: left;
+}
+
+#bitGearPage{
+    width: 70%;
+    margin: auto;
+}
+
+#bitGearPage span{
+    font-weight: bold;
+}
+
+.img-text{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.text-spliter{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.text-entry{
+    text-align: center;
+}
+
+.text-entry p{
+    font-style: italic;
 }
 
 /*.imgDescription{*/

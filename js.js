@@ -1,3 +1,6 @@
+$(document).ready(function() {
+    $("body").hide().fadeIn(2000);
+});
 var runHeroPage = {
     name: "Run! Hero",
     linkName:"runHeroPage",
