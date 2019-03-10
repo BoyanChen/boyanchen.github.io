@@ -397,6 +397,12 @@ p{
     font-style: italic;
 }
 
+#question{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
 /*.imgDescription{*/
     /*display: inline-block;*/
     /*width: 30%;*/
