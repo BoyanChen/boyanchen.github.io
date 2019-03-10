@@ -247,8 +247,9 @@ p{
 }
 
 .projectIntro{
-    margin: 0;
-    width: 100%;
+    margin-left: 10%;
+    margin-top: 125px;
+    width: 80%;
     height: 250px;
     /*padding-top: 20px;*/
     /*padding-bottom: 20px;*/
@@ -365,6 +366,11 @@ p{
 }
 
 #bitGearPage{
+    width: 70%;
+    margin: auto;
+}
+
+.projectContainer{
     width: 70%;
     margin: auto;
 }
