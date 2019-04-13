@@ -104,6 +104,17 @@ li{
     display: inline-block;
 }
 
+.projectContainer-M{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.projectItem{
+    width: 100%;
+    overflow: hidden;
+}
+
 /*#workPage{*/
     /*margin-top: 160px;*/
     /*height: 100vh;*/
@@ -400,6 +411,29 @@ li{
 
 .text-entry p{
     font-style: italic;
+}
+
+.dynamicQuery{
+    cursor: pointer;
+    font-weight: normal;
+}
+
+
+
+.dynamicQuery h3{
+    font-weight: normal;
+}
+
+.dynamicContent{
+    display: none;
+}
+
+.defaultQuery{
+    font-weight: bold;
+}
+
+.defaultContent{
+    display: block;
 }
 
 #question{

@@ -1,5 +1,6 @@
 $(document).ready(function() {
     $("body").hide().fadeIn(2000);
+    ms2FinalQuerySelect();
 });
 var runHeroPage = {
     name: "Run! Hero",
@@ -137,4 +138,26 @@ function checkWorks() {
     if($("#workPage").is(':visible')){
 
     }
+}
+
+//this function is for the selector control in final project page
+function ms2FinalQuerySelect(){
+    $(".dynamicQuery").click(function (event) {
+        var id = event.target.id;
+        var contentId = "content"+id;
+        console.log("Selection Detected!");
+        var queries = $(".dynamicQuery");
+        var contents = $(".dynamicContent");
+        console.log(queries);
+        for(var i = 0; i < queries.length; i++){
+            if(queries[i].id == id){
+                console.log(id, " clicked");
+                queries[i].style.fontWeight = "bold";
+                contents[i].style.display = "block";
+            }else{
+                queries[i].style.fontWeight = "normal";
+                contents[i].style.display = "none";
+            }
+        }
+    })
 }

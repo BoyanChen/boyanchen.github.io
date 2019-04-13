@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <clipPath id="clip-Home">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="Home" clip-path="url(#clip-Home)">
+    <rect width="1920" height="1080" fill="#ffeedc"/>
+    <g id="voice_indicator" data-name="voice indicator" transform="translate(-50 -1)">
+      <rect id="Rectangle_1" data-name="Rectangle 1" width="1008.07" height="115.9" transform="translate(506 483)" fill="#f56a3f"/>
+    </g>
+    <text id="Hi_What_can_I_do_for_you_" data-name="Hi! What can I do for you?" transform="translate(960 560)" fill="#ffeedc" font-size="50" font-family="Usual-Regular, Usual"><tspan x="-305.225" y="0">Hi! What can I do for you?</tspan></text>
+  </g>
+</svg>

@@ -41,7 +41,7 @@
 
 <div class="container" id="bitGearPage">
 
-    <div class="intro">
+    <div class="intro" style="margin-bottom: 100px">
         <h1>Intro</h1>
         <p>
            Nowadays, the voice user interface has become more and more accessible. Several technology giants like Apple, Google and Amazon already embeded the voice assistant in their
@@ -88,6 +88,13 @@
             model for the conversational user experience of VUI
         </p>
 
+        <div class="text-spliter" id="question">
+            <div class="text-entry"><h3 class ="dynamicQuery defaultQuery" id="1">Prototype#1</h3></div>
+            <div class="text-entry"><h3 class ="dynamicQuery" id="2">Prototype#2</h3></div>
+            <div class="text-entry"><h3 class ="dynamicQuery" id="3">Prototype#3</h3></div>
+        </div>
+
+        <div class="dynamicContent defaultContent" id="content1">
         <h1>Prototype #1: Paper Prototype</h1>
         <p>
             This is the very first stage of the project, and the main goal for this paper prototype is testing the conceptual model I just came up as an idea for voice interaction. I decide
@@ -143,8 +150,61 @@
         <div class="imgDescription" style="text-align: center">
             <img src="assets/IndexAssetsOutput/MS2%20Final/SwichPage.JPG" width="80%" height="auto">
             <div class="description">
-                <p>The page just tell you what you previously seen and want sites has shown</p>
+                <p>The page just tell you what you previously seen and what sites had been shown</p>
             </div>
+        </div>
+            <h3>Feedback</h3>
+            <ul style="font-size: 20px">
+                <li>Looking for free conversation, the suggest command line might give users a feeling of being limited in options</li>
+                <li>The difference of conceptual model is not noticeable</li>
+                <li>The whole experience of the prototype feels buggy, hard to grasp the whole feeling of the prototype</li>
+                <li>The suggest command line with underline still offers the affordance of clicking</li>
+                <li>Put the tester into a certain context, such as ordering a food, or purchase something will be helpful for tester to give more feedback from experience wise</li>
+            </ul>
+        </div>
+        <div class="dynamicContent" id="content2">
+            <h1>Prototype #2: Interactive Demo Prototype</h1>
+            <p>
+                This is prototype is considered as an improved version for prototype#1 and continue test for the "voice assistance as a servent" idea in the prototype#1. Based on the feedback
+                from the prototype#1, I made a interactive demo which is able to show the transition animation while users browse through different content on the voice browser. I also add a
+                specific context of "searching upcoming event in NYC" as the goal of the whole prototype experience.
+            </p>
+
+
+            <div class="imgDescription" style="text-align: center">
+                <img src="assets/IndexAssetsOutput/MS2%20Final/Home.svg" width="45%" height="auto">
+                <img src="assets/IndexAssetsOutput/MS2%20Final/result.svg" width="45%" height="auto">
+                <div class="description">
+                    <p>Intro and result page</p>
+                </div>
+            </div>
+
+            <h3>Quick search assistant</h3>
+            <p>
+                In this prototype, I also test a more specific function by using voice command to search the content from the content directly. The users can search where is the location of
+                NYC international auto show by asking. Than the google map will be trigger automatically to tell the information for the users. I think it will make a less disruptive experience
+                for searching, since they don't have to switch on another page for finishing this kind of quick search task.
+            </p>
+
+            <div class="imgDescription" style="text-align: center">
+                <img src="assets/IndexAssetsOutput/MS2%20Final/autoshow%20site.svg" width="45%" height="auto">
+                <img src="assets/IndexAssetsOutput/MS2%20Final/map.svg" width="45%" height="auto">
+                <div class="description">
+                    <p>The search information pop up at the left</p>
+                </div>
+            </div>
+
+            <h3>Feedback</h3>
+            <ul style="font-size: 20px">
+                <li>Instead of just focus on create visual affordance, also consider using the audio or sound effect to create certain affordance for the users</li>
+                <li>The web page lack of information to let the users know what could be done and what could be expected to see after the voice command</li>
+                <li>Let the voice assistant read or speak the detail information of the autoshow feels lengthy and has the potential to make the users to feel impatient. Should make the users
+                stop the introduction</li>
+            </ul>
+
+        </div>
+        <div class="dynamicContent" id="content3">
+            <h1>Prototype#3: In Progress...</h1>
         </div>
 
     </div>

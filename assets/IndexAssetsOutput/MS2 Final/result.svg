@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <clipPath id="clip-result">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="result" clip-path="url(#clip-result)">
+    <rect width="1920" height="1080" fill="#ffeedc"/>
+    <g id="voice_indicator" data-name="voice indicator" transform="translate(-456 -424.096)">
+      <rect id="Rectangle_1" data-name="Rectangle 1" width="1008.07" height="115" transform="translate(506 483)" fill="#f56a3f"/>
+    </g>
+    <text id="_3_upcoming_events_in_NYC_found_in_April" data-name="3 upcoming events in NYC found in April" transform="translate(554 137)" fill="#ffeedc" font-size="50" font-family="Usual-Regular, Usual"><tspan x="-483.45" y="0">3 upcoming events in NYC found in April</tspan></text>
+    <g id="MapleFest">
+      <g id="voice_indicator-2" data-name="voice indicator" transform="translate(48 -221.096)">
+        <rect id="Rectangle_1-2" data-name="Rectangle 1" width="1008.07" height="204.841" transform="translate(506 483)" fill="#f56a3f"/>
+      </g>
+      <g id="voice_indicator-3" data-name="voice indicator" transform="translate(-289 -221.096)">
+        <rect id="Rectangle_1-3" data-name="Rectangle 1" width="261.821" height="204.841" transform="translate(506 483)" fill="#f56a3f"/>
+      </g>
+      <text id="_14th_April" data-name="14th
+April" transform="translate(244 303)" fill="#ffeedc" font-size="50" font-family="Usual-Bold, Usual" font-weight="700"><tspan x="45.05" y="50">14th</tspan><tspan x="42.85" y="110">April</tspan></text>
+      <text id="NYC_Maple_Fest" data-name="NYC Maple Fest" transform="translate(1037 392)" fill="#ffeedc" font-size="70" font-family="Usual-Bold, Usual" font-weight="700"><tspan x="-279.615" y="0">NYC Maple Fest</tspan></text>
+    </g>
+    <g id="NYCAutoShow">
+      <g id="voice_indicator-4" data-name="voice indicator" transform="translate(-289 26.904)">
+        <rect id="Rectangle_1-4" data-name="Rectangle 1" width="261.821" height="204.841" transform="translate(506 483)" fill="#f56a3f"/>
+      </g>
+      <g id="voice_indicator-5" data-name="voice indicator" transform="translate(48 26.904)">
+        <rect id="Rectangle_1-5" data-name="Rectangle 1" width="1008.07" height="204.841" transform="translate(506 483)" fill="#f56a3f"/>
+      </g>
+      <text id="_18th_April" data-name="18th
+April" transform="translate(244 551)" fill="#ffeedc" font-size="50" font-family="Usual-Bold, Usual" font-weight="700"><tspan x="45.05" y="50">18th</tspan><tspan x="42.85" y="110">April</tspan></text>
+      <text id="New_York_International_Auto_Show" data-name="New York International Auto Show" transform="translate(1058 634)" fill="#ffeedc" font-size="55" font-family="Usual-Bold, Usual" font-weight="700"><tspan x="-472.367" y="0">New York International Auto Show</tspan></text>
+    </g>
+    <g id="FileFest">
+      <g id="voice_indicator-6" data-name="voice indicator" transform="translate(-289 274.904)">
+        <rect id="Rectangle_1-6" data-name="Rectangle 1" width="261.821" height="204.841" transform="translate(506 483)" fill="#f56a3f"/>
+      </g>
+      <g id="voice_indicator-7" data-name="voice indicator" transform="translate(48 274.904)">
+        <rect id="Rectangle_1-7" data-name="Rectangle 1" width="1008.07" height="204.841" transform="translate(506 483)" fill="#f56a3f"/>
+      </g>
+      <text id="_25th_April" data-name="25th
+April" transform="translate(244 799)" fill="#ffeedc" font-size="50" font-family="Usual-Bold, Usual" font-weight="700"><tspan x="45.05" y="50">25th</tspan><tspan x="42.85" y="110">April</tspan></text>
+      <text id="Tribeca_Film_Festival" data-name="Tribeca Film Festival" transform="translate(1037 888)" fill="#ffeedc" font-size="70" font-family="Usual-Bold, Usual" font-weight="700"><tspan x="-359.765" y="0">Tribeca Film Festival</tspan></text>
+    </g>
+  </g>
+</svg>
